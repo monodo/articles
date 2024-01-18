@@ -214,7 +214,7 @@ As we could have expected, the fetching time is becoming linear after a certain 
 Profiling showed the serialization of the geometry was a significant part of the cost. Here serialization consists in turning the binary geometry representation into, roughly, a JSON list of coordinates. Instead of achieving this in Django, we tried to delegate this process to Postgis by using one of its native function. This gave very satisfying results (fig.\ref{fig6}).
 
 \begin{figure}
-	\includegraphics[width=\textwidth]{benchmarcka.png}
+	\includegraphics[width=\textwidth]{benchmarckb.png}
 	\caption{Benchmark of geometry serialization} \label{fig6}
 \end{figure}
 
