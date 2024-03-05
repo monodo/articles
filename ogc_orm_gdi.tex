@@ -56,15 +56,14 @@
 % If the paper title is too long for the running head, you can set
 % an abbreviated paper title here
 %
-\author{Denis Rouzaud\inst{1} \and
-Olivier Monod\inst{2}}
+\author{Olivier Monod\inst{1} \and Denis Rouzaud\inst{2}}
 %
-\authorrunning{D. Rouzaud et O. Monod}
+\authorrunning{O. Monod et D. Rouzaud}
 % First names are abbreviated in the running head.
 % If there are more than two authors, 'et al.' is used.
 %
-\institute{OPENGIS.ch GmbH, 7031 Laax, Switzerland \and
- Ville d'Yverdon-les-Bains, 1400 Yverdon-les-Bains, Switzerland
+\institute{ Ville d'Yverdon-les-Bains, 1400 Yverdon-les-Bains, Switzerland \and
+ OPENGIS.ch GmbH, 7031 Laax, Switzerland
 }
 %
 \maketitle              % typeset the header of the contribution
@@ -106,7 +105,7 @@ It turns out that the solution worked well and that users adopted the new way of
 
 \subsection{Results}
 
-The good adoption of the solution and motivation of the field workers resulted in an impressive data collection over the three last years, reaching a total of 9344 field controls for the 2021-2023 years. This emphasizes also the excellent UX/UI proposed by Open Source mobile mapping solution QField (fig.\ref{fig2}).
+The good adoption of the solution and motivation of the field workers resulted in an impressive data collection over the three last years, reaching a total of 9344 field controls for the 2021-2023 years. This emphasizes also the excellent UX/UI proposed by Open Source mobile mapping solution QField\cite{ref_article3} (fig.\ref{fig2}).
 
 \begin{figure}
 	\includegraphics[width=\textwidth]{stats.png}
@@ -118,7 +117,7 @@ The good adoption of the solution and motivation of the field workers resulted i
 
 \subsubsection{Description}
 
-At the start of the project, in 2020 neither the OGC API - Features standard nor the package required for creating it in a Django application were existing. A quite classic architecture was designed at this time: OGC WFS 2 services is deployed using QGIS server connected to the postGIS database. Authentication and user management is done in Geomapfish Open Source geoportal in which a oauth2 backend have been implemented (fig.\ref{fig3}).
+A quite usual architecture was designed at this time: OGC WFS 2 services is deployed using QGIS\cite{ref_article4} server connected to the postGIS database. Authentication and user management is done in Geomapfish Open Source geoportal\cite{ref_article1} in which a oauth2 backend have been implemented (fig.\ref{fig3}). The project was setup on the Geomapfish instance in Yverdon-les-Bains: Géoportail du Nord vaudois\cite{ref_article2}.
 
 \begin{figure}
 	\includegraphics[width=\textwidth]{architecture.drawio.png}
@@ -147,7 +146,7 @@ After a few years in production following advantages and drawbacks are identifie
 
 \section{The Object Relational Mapping Proposal with Django}
 
-Django is one of the most popular web frameworks written in python that embrace the Don’t Repeat Yourself (DRY) programming principle: “Django makes it easier to build better web apps more quickly and with less code.”. The most important difference that distinguishes Django from other python frameworks is its integrated Object Relational Mapping which makes it particularly easy to work with complex data models and to manage models changes (migrations) efficiently. Furthermore as for the whole framework, the ORM documentation is of very high quality. Besides, Django ships with lots of features that can be useful in any GIS application: 
+Django is one of the most popular web frameworks written in python that embrace the Don’t Repeat Yourself (DRY) programming principle: “Django makes it easier to build better web apps more quickly and with less code.”\cite{ref_article5}. The most important difference that distinguishes Django from other python frameworks is its integrated Object Relational Mapping which makes it particularly easy to work with complex data models and to manage models changes (migrations) efficiently. Furthermore as for the whole framework, the ORM documentation is of very high quality. Besides, Django ships with lots of features that can be useful in any GIS application: 
 
 \begin{itemize}
 	\item Integrated security.
@@ -172,7 +171,7 @@ But the most important aspect with the perspective of building complex GIS appli
 
 \subsection{The django-oapif package: single liner OGC service deployment}
 
-With the objective of replacing complex network management solutions in the future, a Proof of Concept has been realized by OPENGIS Gmbh in 2023. The goal was to validate the direct deployment of a Django model as an OGC service and identify potential limitations.
+With the objective of replacing complex network management solutions in the future, a Proof of Concept\cite{ref_article6}\cite{ref_article7} has been realized by OPENGIS Gmbh in 2023. The goal was to validate the direct deployment of a Django model as an OGC service and identify potential limitations.
 
 \subsubsection{Development}
 
@@ -228,7 +227,7 @@ Using an ORM and django-oapif will require a little more coding literacy from GI
 
 
 \begin{credits}
-\subsubsection{\ackname} Django-oapif Proof Of Concept was funded by: Ville d'Yverdon-les-Bains, Ville de Morges, Ville de Nyon
+\subsubsection{\ackname} Django-oapif Proof Of Concept development was funded by: Ville d'Yverdon-les-Bains, Ville de Morges, Ville de Nyon
 
 \end{credits}
 %
@@ -243,19 +242,19 @@ Using an ORM and django-oapif will require a little more coding literacy from GI
 \begin{thebibliography}{8}
 \bibitem{ref_article1}
 Geomapfish: https://geomapfish.org
-\bibitem{ref_article1}
+\bibitem{ref_article2}
 Géoportail du Nord vaudois: https://mapnv.ch
-\bibitem{ref_article1}
+\bibitem{ref_article3}
 QField: https://qfield.org
-\bibitem{ref_article1}
+\bibitem{ref_article4}
 QGIS: https://ggis.org 
-\bibitem{ref_article1}
+\bibitem{ref_article5}
 The Django web  framework: https://www.djangoproject.com/ 
-\bibitem{ref_article1}
+\bibitem{ref_article6}
 Django OGC API - Features by Opengis: https://github.com/opengisch/django-ogcapif
-\bibitem{ref_article1}
+\bibitem{ref_article7}
 Django DRF GIS: https://github.com/openwisp/django-rest-framework-gis
-\bibitem{ref_article1}
+\bibitem{ref_article8}
 Geodjango: https://docs.djangoproject.com/en/5.0/ref/contrib/gis/
 
 
