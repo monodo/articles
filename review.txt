@@ -1,0 +1,73 @@
+SUBMISSION: 8
+TITLE: Towards OGC API - Features centric GIS applications controlled by Object Relational Mapping
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 8
+TITLE: Towards OGC API - Features centric GIS applications controlled by Object Relational Mapping
+AUTHORS: Olivier Monod and Denis Rouzaud
+
+----------- Overall evaluation ----------- The contribution introduces a relevant development, supported by performance tests, of a web GIS software architecture. The work sounds promising and it is well presented.
+A single suggestion for improvements would be to outline the feasibility of an adaptation of the architecture to other OCG APIs such as the Coverage.
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 8
+TITLE: Towards OGC API - Features centric GIS applications controlled by Object Relational Mapping
+AUTHORS: Olivier Monod and Denis Rouzaud
+
+----------- Overall evaluation ----------- This industry paper investigates a novel architectural approach to web GIS architectures,  leveraging the Python Django framework and the well-known concept of Object-relational Mapping to overcome some challenges encountered when implementing PostGIS-based solutions.
+
+The topic and the Software Engineering take on Web GIS is very interesting, relevant and falls within the scope of W2GIS 2024. The paper is fairly well-written and motivated. The discussion of industry challenges faced by practitioners when working in a real-world context is also a significant strength of the work. The proposed approach is validated by conducting a performance analysis.
+
+FIXME: The main weakness of the paper comes from its lack of contextualization within the current state of the art. The paper includes very few references, and all of them are links to websites. The authors should consider including more references supporting their work, possibly including also scholarly articles, such as, for example [2, 3, 4] (see references at the bottom of this review).
+
+FIXME: Another weakness is that the evaluation is merely a benchmark of the proposed approach, and does not compare the performance against traditional architectures, such as the one shown in Fig. 3. Adding such a comparison would improve the strength of the study. Also concerning the empirical evaluation, what is "Gian (%)" in Fig. 6? The authors should explain this in the manuscript, or use a more intuitive axis name.
+
+OK: It would also be interesting to highlight, in the Conclusion, some future work directions. Is there any aspect the authors plan to improve in future works? Have the authors considered visual-based solutions such as KNIME, which also have been used in a GIS analysis context?
+
+
+OK Minor:
+- OK: Capitalize "Python" throughout the manuscript and in the abstract.
+- OK: Briefly explain what "OGC API - Features" is, to make the paper accessible to a wider audience. Also, include a reference to OGC API Specification.
+- OK As in the point above, briefly explain what ORM is, to make the paper accessible to a wider audience. Possibly, include a reference (e.g.: [1])
+- OK: In Section 2, QField is first mentioned without any reference, which is only given later on in Section 2.1.
+- OK: Listing 1.1 is never mentioned in the text. The authors should introduce a sentence explaining what it represents, and reference it.
+- OK: Throughout the manuscript, authors should use the Capitalized form when referencing figures and listings (e.g.: "Fig. 1", "Listing 1.1").
+- OK: Capitalize "OAuth 2" in Section 2.2.
+- OK: In Section 2.2 "Cons": "it's not easy to identified [...]" -> "it is not easy to identify which [...]"
+- OK: In Section 2.2 "Cons": in the first item in the "Cons" list the authors mention "no perfect debug tools". I would rephrase with "Limited support for debug tools. It is often not trivial to identify which layer...".
+- OK In Section 2.2 "Cons": in the second item in the "Cons" list, "no unit tests" seems out of place. The authors should consider rephrasing that part.
+
+
+References
+
+[1] Torres, A., Galante, R., Pimenta, M. S., & Martins, A. J. B. (2017). Twenty years of object-relational mapping: A survey on patterns, solutions, and their implications on application design. information and software technology, 82, 1-18.
+
+[2] Kim, D. H., & Kim, M. S. (2002, June). Web GIS service component based on open environment. In IEEE International Geoscience and Remote Sensing Symposium (Vol. 6, pp. 3346-3348). IEEE.
+ 
+[3] Agrawal, S., & Gupta, R. D. (2017). Web GIS and its architecture: a review. Arabian Journal of Geosciences, 10, 1-13.
+
+[4] Alesheikh, A. A., Helali, H., & Behroz, H. A. (2002, July). Web GIS: technologies and its applications. In Symposium on geospatial theory, processing and applications (Vol. 15, pp. 213-222). Ottawa, ON, Canada: ISPRS.
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 8
+TITLE: Towards OGC API - Features centric GIS applications controlled by Object Relational Mapping
+AUTHORS: Olivier Monod and Denis Rouzaud
+
+----------- Overall evaluation ----------- The article presents an interesting and innovative architecture for WebGIS applications. It is well written and fits well as an industry submission. However there are some parts to be improved:
+
+- OK: There are some abbreviations without providing their full terminologies (e.g., ETL, GDI, etc.). Please check this over the whole article.
+
+- FIXME: While this is an industry paper, I still believe that few scientific references should be included.
+
+- OK: References that are web links should be added in an standardized citation format to ensure the homogeneity, please see the example below:
+
+Nielsen, J. The 90-9-1 Rule for Participation Inequality in Social Media and Online Communities. Available online: https://www.nngroup.com/articles/participation-inequality/ (accessed on 20 October 2019).
+
+- OK: Introduction>> Line 12>> “Object Related Mapping” >> Object Relational Mapping
+
+

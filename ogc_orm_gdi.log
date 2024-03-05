@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.17)  19 JAN 2024 13:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.17)  5 MAR 2024 09:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -280,60 +280,98 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <water_gas_2023.png, id=13, 597.432pt x 421.0932pt>
 File: water_gas_2023.png Graphic file (type png)
 <use water_gas_2023.png>
-Package pdftex.def Info: water_gas_2023.png  used on input line 101.
+Package pdftex.def Info: water_gas_2023.png  used on input line 103.
 (pdftex.def)             Requested size: 347.12354pt x 244.67114pt.
 <stats.png, id=15, 1405.50093pt x 617.30624pt>
 File: stats.png Graphic file (type png)
 <use stats.png>
-Package pdftex.def Info: stats.png  used on input line 111.
+Package pdftex.def Info: stats.png  used on input line 113.
 (pdftex.def)             Requested size: 347.12354pt x 152.46115pt.
-<architecture.drawio.png, id=16, 1997.4625pt x 1467.4825pt>
+ [2]
+[3 <./water_gas_2023.png> <./stats.png>]
+<architecture.drawio.png, id=25, 1997.4625pt x 1467.4825pt>
 File: architecture.drawio.png Graphic file (type png)
 <use architecture.drawio.png>
-Package pdftex.def Info: architecture.drawio.png  used on input line 123.
+Package pdftex.def Info: architecture.drawio.png  used on input line 125.
 (pdftex.def)             Requested size: 347.12354pt x 255.02193pt.
- [2]
-[3 <./water_gas_2023.png> <./stats.png>] [4 <./architecture.drawio.png>]
+ [4 <./architecture.drawio.png>]
 [5] (C:\Users\olm\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-80.
+83.
  (C:\Users\olm\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 <future-architecture.png, id=33, 1993.4475pt x 1246.6575pt>
 File: future-architecture.png Graphic file (type png)
 <use future-architecture.png>
-Package pdftex.def Info: future-architecture.png  used on input line 197.
+Package pdftex.def Info: future-architecture.png  used on input line 200.
 (pdftex.def)             Requested size: 347.12354pt x 217.06503pt.
 <benchmarcka.png, id=34, 1204.5pt x 1204.5pt>
 File: benchmarcka.png Graphic file (type png)
 <use benchmarcka.png>
-Package pdftex.def Info: benchmarcka.png  used on input line 207.
+Package pdftex.def Info: benchmarcka.png  used on input line 210.
+(pdftex.def)             Requested size: 347.12354pt x 347.12732pt.
+<benchmarckb.png, id=35, 1204.5pt x 1204.5pt>
+File: benchmarckb.png Graphic file (type png)
+<use benchmarckb.png>
+Package pdftex.def Info: benchmarckb.png  used on input line 219.
 (pdftex.def)             Requested size: 347.12354pt x 347.12732pt.
 
 [6]
-<benchmarckb.png, id=39, 1204.5pt x 1204.5pt>
-File: benchmarckb.png Graphic file (type png)
-<use benchmarckb.png>
-Package pdftex.def Info: benchmarckb.png  used on input line 216.
-(pdftex.def)             Requested size: 347.12354pt x 347.12732pt.
+Underfull \vbox (badness 7468) has occurred while \output is active []
+
  [7 <./future-architecture.png>] [8 <./benchmarcka.png>] [9 <./benchmarckb.png>
-] [10] (ogc_orm_gdi.aux)
+]
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+[]\T1/cmr/m/n/9 Wikipedia con-trib-u-tors, Wikipedia ORM def-i-ni-tion. Avail-a
+ble on-line:
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 248--249
+\T1/cmr/m/n/9 https://en.wikipedia.org/wiki/Object-relational-mapping (ac-cesse
+d on 18 Jan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
+[]\T1/cmr/m/n/9 OPENGIS.ch GmbH, QField ap-pli-ca-tion pre-sen-ta-tion. Avail-a
+ble on-line:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+[]\T1/cmr/m/n/9 OpenWisp, Django DRF GIS repos-i-tory. Avail-able on-line:
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 268--269
+\T1/cmr/m/n/9 https://github.com/openwisp/django-rest-framework-gis (ac-cessed 
+on 18 Jan-
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 270--271
+[]\T1/cmr/m/n/9 Django com-mu-nity, Geod-jango con-tri-bu-tion pre-sen-ta-tion.
+ Avail-able on-line:
+ []
+
+[10] (ogc_orm_gdi.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4392 strings out of 474485
- 63005 string characters out of 5744678
- 1973528 words of memory out of 5000000
- 26672 multiletter control sequences out of 15000+600000
+ 4397 strings out of 474485
+ 63063 string characters out of 5744678
+ 1975528 words of memory out of 5000000
+ 26677 multiletter control sequences out of 15000+600000
  567018 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,943b,1282s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,7n,65p,1148b,1284s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\olm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt09
 00.pk> <C:\Users\olm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
 bx1000.pk> <C:\Users\olm\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
@@ -345,9 +383,9 @@ knappen/ec/dpi600\ecrm1000.pk> <C:\Users\olm\AppData\Local\MiKTeX\fonts/pk/ljfo
 ur/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/olm/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/olm/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on ogc_orm_gdi.pdf (10 pages, 2501656 bytes).
+Output written on ogc_orm_gdi.pdf (10 pages, 2505540 bytes).
 PDF statistics:
- 418 PDF objects out of 1000 (max. 8388607)
+ 423 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
